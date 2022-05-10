@@ -1,0 +1,101 @@
+/*prima varianta e pt telefon*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,200&display=swap");
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background: #E8E8E8;
+  font-size: 15px;
+  height: 100vh;
+}
+
+.cutie {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cutie .logo {
+  width: 170px;
+}
+
+.cutie h1 {
+  margin: 1em 0;
+}
+
+.cutie p {
+  line-height: 1rem;
+}
+
+.cutie .stanga {
+  background: linear-gradient(160deg, #030b4e 0%, #794f9c 100%);
+  padding: 1em;
+}
+
+.cutie .stanga p, .cutie .stanga h1 {
+  color: white;
+}
+
+.cutie .dreapta {
+  margin: 2em 0 1em;
+}
+
+.cutie .deschislaculoare {
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 2em;
+}
+
+.cutie button {
+  background-color: white;
+  border: none;
+  color: #929292;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: larger;
+  font-family: 'Montserrat';
+}
+
+.cutie p {
+  color: #040c58;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  body button {
+    font-size: larger !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    margin: 1em 0;
+  }
+  p {
+    line-height: 1.7em !important;
+  }
+  .incutie {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% auto;
+        grid-template-columns: 60% auto;
+  }
+  .incutie .stanga {
+    text-align: left;
+    padding: 0 2em;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    background: linear-gradient(160deg, #030b4e 0%, #794f9c 100%) !important;
+  }
+  .incutie .dreapta {
+    margin: auto;
+  }
+}
+.otherField{
+  display: none;
+}
